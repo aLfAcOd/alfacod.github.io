@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="آموزش برنامه نویسی">
+        <meta name="keywords" content="آموزش پایتون , آلفاکد , python , alfa code , alfacode , ALFA CODE , ALFACODE">
+        <meta name="author" content="mojtabadev">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="x-icon" href="favicon.ico">
+        <title> تبدیل فایل .py به فایل اجرایی (exe) </title>
+        <script>
+        function copyText() {
+      
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("pip install pyinstaller");
+            alert("copied");
+        }
+        function copytext() {
+      
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("pyinstaller --onefile -w -i icon.ico tk.py");
+            alert("copied");
+        }
+    </script>
+    </head>
+    <body dir="rtl" style="background-image: url(src/bg.png); background-repeat: repeat; background-size: auto;">
+        <div class="title">
+            <h1 class="ac">تبدیل فایل .py به فایل اجرایی (exe)</h1>
+            <nav>
+                <a class="h" href="index.html">خانه</a>
+                <span> | </span>
+                <a class="l" href="main.html">آموزش ها</a>
+                <span> | </span>
+                <a class="s" href="suport.html">ارتباط باما</a>
+            </nav>
+        </div>
+        <div class="body"><br>
+            <center>
+                حتما خیلی وقت ها براتون پیش اومده که یه فایل پایتونی بنویسید و<br>
+                بخواین اونو توی سیستم یه نفر دیگه اجرا کنید. ممنکنه مشکلای مختلفی <br>
+                پیش بیاد. مثلا شاید طرف پایتون نداشته باشه یا اینکه نسخه پایتونش با<br>
+                شما فرق داشته باشه ,یا کتابخونه هایی که شما استفاده کردید رو نداشته باشه<br>
+                یا شاید بخواین از کدتون برنامه خروجی بگیرین و خیلی چیزای دیگه.<br>
+                به هر حال ما امروز اینجا هستیم تا بهتون یاد بدیم چطور این کارو بکنید.<br><br>
+                <mark>با ما همراه باشید</mark><br><br><hr>
+                <br>
+                
+                <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:75%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/roMuX/vt/frame?titleShow=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="margin-left: 12.5%"></iframe></div><br>
+                
+                خب اول از همه به یه فایل پایتونی با پسوند py. نیاز داریم.<br>
+                <img src="src/1.png" style="width: 75%; height: auto; border: 1px solid black;"><br><br>
+                برای اینکار به کتابخونه pyinstaller نیاز داریم. برای نصب وارد  cmd  ویندوز میشیم.<br>
+                <img src="src/2.png" style="width: 75%; height: auto; border: 1px solid red;"><br><br>
+                و کد pip instal pyinstaller<button onclick="copyText()">copy</button> رو وارد ترمینال میکنیم. و منتظر میمونیم تا کتابخونه کامل نصب بشه.<br> 
+                و با پیغام successfully installed pyinstaller مواجه بشیم.<br>
+                وارد پوشه کد میشیم.
+                شیفت رو نگه میداریم .راست کلیک میکنیم. <br>
+                روی گزینه open command window here کلیک میکنیم.<br>
+                <img src="src/3.png" style="width: 75%; height: auto; border: 2px solid black;"><br><br>
+                تو سی ام دی باز شده باید کد تبدیل فایل رو بزنیم.<br>
+                <div>
+                    <abbr id="zero" title="اینجا کتابخونه رو صدا میکنیم">pyinstaller</abbr>
+                
+                    <abbr id="one" title="این کتابخونه بطور پیشفرض فایل خروجی کدا رو توی یه پوشه پر از فایل میده برای اینکه اینطوری نشه از این قابلیت استفاده کنید.">--onefile</abbr>
+                
+                    <abbr id="two" title="اگر برنامه تون گرافیکیه اینو بزارید که ترمینال باز نشه اما اگه برنامه تون تحت ترمیناله این قسمت کدو نزنید">-w</abbr>
+                
+                    <abbr id="three" title="اگه میخواین آیکون بزارین این و گزینه بعدی رو اضافه کنید وگرنه نیازی به این قسمت کد نیست">-i</abbr>
+                
+                    <abbr id="four" title="اسم آیکون فایل">icon.ico</abbr>
+                
+                    <abbr id="five" title="اسم فایلی که میخواین تبدیل کنید">tk.py</abbr><br>
+                </div>
+                کپی کد:<button onclick="copytext()" class="button">copy</button>
+                <br>
+                اگه ماوس رو روی کلمه ها نگه دارید توضیحاتش رو نوشتم. 
+                <img src="src/4.png" style="width: 75%; height: auto; border: 2px solid black;"><br><br>
+                بعد از اتمام فرآیند تبدیل فایل شما تو پوشه ی دیسته و قابل اجراست.
+                <img src="src/5.png" style="width: 75%; height: auto; border: 2px solid black;"><br><br>
+                <img src="src/6.png" style="width: 75%; height: auto; border: 2px solid black;"><br><br>
+                
+                ممنون که تا آخر همراهمون بودید
+            </center>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </body>
+</html>
