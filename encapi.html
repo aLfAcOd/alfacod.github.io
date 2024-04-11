@@ -6,8 +6,10 @@
         <meta name="author" content="mojtabadev">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="css/prism.css" rel="stylesheet" />
         <link rel="icon" type="x-icon" href="favicon.ico">
         <title>این صفحه درحال ساخت است!</title>
+
         <script>
         function copyText() {
       
@@ -26,6 +28,7 @@
     </script>
     </head>
     <body dir="rtl" style="background-image: url(src/bg.png); background-repeat: repeat; background-size: auto;">
+        <script src="scripts/prism.js"></script>
         <div class="title">
             <h1 class="ac">نحوه استفاده از encryptor</h1>
             <nav>
@@ -39,17 +42,36 @@
         <div class="body"><br>
             <center>
                 سلام<br>
-                امروز با نحوه استفاده از برنامه انکیرپتور در زبان پایتون<br>
+                امروز با نحوه استفاده از برنامه انکریپتور در زبان پایتون<br>
                 در خدمت شما هستیم<br>
                 با ما همراه باشید<br>
                 <br><br><br>
-                خب اول از همه فایل زیر رو دانلود کنید<br>
-                ؟؟؟؟؟؟؟؟؟؟؟؟؟؟<br>
+                خب اول از همه فایل زیر رو دانلود کنید<br><br>
+                <button class="dn"><a download href="src/encpy.rar">download</a></button><br><br>
                 حالا فایل encryptor.py رو به پوشه کد هاتون کپی کنید <br>
-                حالا یک فایل پایتون ایجاد کنید  و کد های زیر رو توش بنویسید<br>
-                ؟؟؟؟؟؟؟؟؟؟؟؟؟؟<br>
-                حالا برای رمز گذاری متن از /// و برای ترجمه متن از /// استفاده کنید<br>
-                این دو تابع استرینگ را برمیگردانند
+                حالا یک فایل پایتون ایجاد کنید  و کد های زیر رو توش بنویسید<br><br>
+                <div class="code">
+                <code>
+                    import encpy<br>
+                    my_text = encpy.encrypt("hello")<br>
+                    print(my_text)<br><br>
+<!--////////////////////////////////////////////////////////-->
+                    :output//<br>
+                    8 5 12 12 15 <br>
+                </code></div><br><br>
+                حالا برای رمز گذاری متن از ()encpy.encrypt و برای ترجمه متن از ()encpy.decrypt استفاده کنید<br>
+                این دو تابع استرینگ را برمیگردانند<br>
+                <br>
+                <div class="code">
+                    <code>
+                        import encpy<br>
+                        my_text = encpy.decrypt("8 5 12 12 15")<br>
+                        print(my_text)<br><br>
+    <!--////////////////////////////////////////////////////////-->
+                        :output//<br>
+                        hello <br>
+                    </code></div><br><br>
+                
             </center>
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>

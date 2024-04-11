@@ -3,6 +3,7 @@
   src: url(font.ttf);
 }
 
+
 body {
     font-family: sans;
 }
@@ -209,11 +210,42 @@ nav {
     border: 3px outset blue;
 }
 
+.code {
+    font-weight: bolder;
+    display: inline-block;
+    padding: 6px;
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: #7171ff;
+    background-color: rgb(0, 0, 0);
+}
+
+.dn {
+    width: 20em;
+    height: 4em;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(172, 0, 172);
+    border-radius: 10em;
+}
+
+.dn a {
+    color: #5ad0ff;
+}
+
+.dn a:hover {
+    color: #277c9e;
+}
 
 
-
-
-
+.dn:hover {
+    width: 20em;
+    height: 4em;
+    font-weight: bolder;
+    background-color: rgb(207, 116, 207);
+    border-radius: 10em;
+}
 
 
 
