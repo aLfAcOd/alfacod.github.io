@@ -1,0 +1,255 @@
+@font-face {
+  font-family: sans;
+  src: url(font.ttf);
+}
+
+
+body {
+    font-family: sans;
+}
+.title {
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+.ac {
+    text-align: center;
+    text-shadow: 4px 3px 0px grey;
+    font-size: 250%
+}
+.h {
+    text-decoration: none;
+    color: darkred;
+}
+.l {
+    text-decoration: none;
+    color: darkred;
+}
+.s {
+    text-decoration: none;
+    color: darkred;
+    padding-left: 10;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+.aparat {
+    background-color: pink;
+    border:2px outset #ffd2da;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: -20%;
+}
+.aparat:hover {
+    background-color: #ffd8de;
+}
+.bale {
+    background-color: aquamarine;
+    border:2px outset #c0ffea;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: 20%;
+}
+.bale:hover {
+    background-color: #d6fff1;
+}
+.eitaa {
+    background-color: #d5f3ff;
+    border:2px outset #c0ffea;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: -20%;
+}
+.eitaa:hover {
+    background-color: #5ad0ff;
+}
+
+.phone {
+    background-color: #fffaea;
+    border:2px outset #f5ff00;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: 20%;
+}
+.phone:hover {
+    background-color: #fde8a2;
+}
+.mail {
+    background-color: #d3d3ff;
+    border:2px outset white;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: -20%;
+}
+.mail:hover {
+    background-color: #7171ff;
+}
+
+.github {
+    background-color: white;
+    border:2px outset #c3c3c3;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    right: 20%;
+}
+.github:hover {
+    background-color: #efefef;
+}
+
+.ds {
+    background-color: rgba(181, 168, 255, 0.91);
+    border:rgba(181, 168, 255, 0.68);
+    border-radius: 20px;
+    width: 80%;
+}
+.ds:hover {
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+hr {
+    width: 75%;
+    color: black;
+    border: 2px outset black;
+}
+
+.button {
+    border: 3px outset blue;
+    background-color: red;
+    color: lightgreen;
+    width: 50px;
+    height: 25px;
+    border-radius: 13px;
+}
+.button:hover {
+    background-color: pink;
+    color: black;
+    border: 3px outset green;
+    border-radius: 8px;
+}
+center {
+    font-size: 23px;
+}
+#zero {
+    background-color: rgba(33, 33, 33, 0.31);
+    border: 1px solid rgba(33, 33, 33, 0.31);
+    border-radius: 15px;
+}
+#one {
+    background-color: rgba(255, 255, 0, 0.43);
+    border: 1px solid rgba(255, 255, 0, 0.43);
+    border-radius: 15px;
+}
+#two {
+    background-color: rgba(255, 0, 0, 0.45);
+    border: 1px solid rgba(255, 0, 0, 0.45);
+    border-radius: 15px;
+}
+#three {
+    background-color: rgba(0, 136, 0, 0.73);
+    border: 1px solid rgba(0, 136, 0, 0.73);
+    border-radius: 15px;
+}
+#four {
+    background-color: rgb(10, 178, 170);
+    border: 1px solid rgb(10, 178, 170);
+    border-radius: 15px;
+}
+#five {
+    background-color: rgba(165, 42, 42, 0.48);
+    border: 1px solid rgba(165, 42, 42, 0.48);
+    border-radius: 15px;
+    
+}
+.post {
+    border: 5px inset black;
+    border-radius: 5px;
+    width: 70%;
+    background-color: antiquewhite;
+}
+.post:hover {
+    border: 8px inset black;
+    border-radius: 15px;
+    background-color: #ffd59e;
+}
+
+body {
+    background-image: url(src/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.body {
+    border: 5px inset red;
+    border-radius: 20px;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+nav {
+    padding-right: 10px;
+}
+
+
+.at {
+    display: inline;
+    border: 3px outset blue;
+}
+
+.code {
+    font-weight: bolder;
+    display: inline-block;
+    padding: 6px;
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: #7171ff;
+    background-color: rgb(0, 0, 0);
+}
+
+.dn {
+    width: 20em;
+    height: 4em;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(172, 0, 172);
+    border-radius: 10em;
+}
+
+.dn a {
+    color: #5ad0ff;
+}
+
+.dn a:hover {
+    color: #277c9e;
+}
+
+
+.dn:hover {
+    width: 20em;
+    height: 4em;
+    font-weight: bolder;
+    background-color: rgb(207, 116, 207);
+    border-radius: 10em;
+}
+
+
+
+
+
+
+
