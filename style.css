@@ -186,7 +186,8 @@ center {
 }
 
 body {
-    background-image: url(src/bg.png);
+    background: rgb(65,236,238);
+    background: linear-gradient(45deg, rgba(65,236,238,1) 0%, rgba(117,251,73,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
